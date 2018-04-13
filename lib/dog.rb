@@ -7,9 +7,16 @@ class Dog
 
   #Dog GETTER AND SETTER METHODS
   #name getter method
+  def name
+    @name
+  end
+  
+  #breed getter method
   def breed
     @breed
   end
+
+
 
   #name setter method
   def breed=(new_breed)
