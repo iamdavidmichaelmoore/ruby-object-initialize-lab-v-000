@@ -15,11 +15,13 @@ class Dog
   def breed
     @breed
   end
-
-
-
+  
   #name setter method
   def breed=(new_breed)
-    @breed = new_name
+    @breed = new_breed
   end
+
+  #breed setter method
+  def name=(new_name)
+    @name = new_name
 end
