@@ -8,7 +8,7 @@ class Dog
   #Dog GETTER AND SETTER METHODS
   #name getter method
   def breed
-    @breed = breed
+    @breed
   end
 
   #name setter method
