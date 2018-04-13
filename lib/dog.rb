@@ -24,4 +24,5 @@ class Dog
   #breed setter method
   def name=(new_name)
     @name = new_name
+  end
 end
