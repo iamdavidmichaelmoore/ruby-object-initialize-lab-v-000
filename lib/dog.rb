@@ -1,13 +1,14 @@
 class Dog
   #initalizes the Dog instance that can be named
-  def initialize(breed)
+  def initialize(name, breed="Mutt")
+    @name = name
     @breed = breed
   end
 
   #Dog GETTER AND SETTER METHODS
   #name getter method
   def breed
-    @breed = "Mutt"
+    @breed = breed
   end
 
   #name setter method
