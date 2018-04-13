@@ -10,12 +10,12 @@ class Dog
   def name
     @name
   end
-  
+
   #breed getter method
   def breed
     @breed
   end
-  
+
   #name setter method
   def breed=(new_breed)
     @breed = new_breed
